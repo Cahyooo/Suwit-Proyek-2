@@ -1,0 +1,169 @@
+body{
+    background-color: ;
+}
+
+.Judul{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Box{
+    border: 0.3em solid black;
+    margin: auto;
+    width: 40em;
+    height: 36em;
+    border-radius: 2em;
+    background-color: salmon;
+}
+
+.Skor{
+    position: absolute;
+    width: 10em;
+    height: 15em;
+    background-color: rgb(252, 252, 140) ;
+    border: 0.3em solid black;
+    margin: 2em 0 0 3em;
+    border-radius: 2em;
+}
+
+.Skor h2{
+    text-align: center;
+}
+
+.Reset{
+    margin-top: 2em;
+    margin-left: 2.5em;
+    border-radius: 3em;
+    width: 60%;
+    height: 3.5em;
+    border: 0.35em solid black;
+}
+
+.Atas{
+    border-bottom: 0.3em solid white;
+    width: 100%;
+    height: 12em;
+    background-color: blue;
+    border-radius: 1.8em 1.8em 0 0;
+}
+
+.Komputer{
+    border: 0.3em solid black;
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    margin: 1em 18em 0 16em;
+    position: absolute;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.Teks-Tengah{
+    border: 0.3em solid black;
+    position: absolute;
+    width: 8em;
+    height: 3.5em;
+    border-radius: 5em;
+    margin: 0 18em 0 16em;
+    transform: translate(0,-2em);
+    position: absolute;
+    background-color: white;
+}
+
+.Teks{
+    text-align: center;
+    margin:0;
+    margin-top: 0.2em;
+}
+
+.Bawah{
+    width: 100%;
+    height: 12em;
+    border-bottom: 0.3em solid white;
+    background-color: red;
+}
+
+.User{
+    border: 0.3em solid black;
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    margin: 2.5em 18em 0 16em;
+    position: absolute;
+}
+
+.Pilihan{
+    width: 100%;
+    height: 11.5em;
+    background-color: grey;
+    border-radius: 0 0 1.8em 1.8em;
+}
+
+.Pilih{
+    margin: 0;
+}
+
+.Batu{
+    border: 0.3em solid black;
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    background-color: white;
+    float: left;
+    margin: 0 4em 0 3.3em;
+    transition: 0.5;
+    transition: box-shadow 0.5s;
+}
+
+.Gunting{
+    border: 0.3em solid black;
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    background-color: white;
+    float: left;
+    transition: 0.5;
+    transition: box-shadow 0.5s;
+}
+
+.Kertas{
+    border: 0.3em solid black;
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    background-color: white;
+    float: left;
+    margin: 0 3em 0 4em;
+    transition: box-shadow 0.5s;
+}
+
+.Batu:hover{
+    box-shadow: 0 0 5px 10px rgba( 144, 238, 144,1);
+}
+
+.Gunting:hover{
+    box-shadow: 0 0 5px 10px rgba( 144, 238, 144,1);
+}
+
+.Kertas:hover{
+    box-shadow: 0 0 5px 10px rgba( 144, 238, 144,1);
+}
+
+.Batu:active{
+    box-shadow: 0 0 5px 10px rgb(255, 33, 33);
+}
+
+.Gunting:active{
+    box-shadow: 0 0 5px 10px rgb(255, 33, 33);
+}
+
+.Kertas:active{
+    box-shadow: 0 0 5px 10px rgb(255, 33, 33);
+}
