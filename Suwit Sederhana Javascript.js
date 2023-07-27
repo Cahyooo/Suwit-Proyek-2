@@ -70,17 +70,17 @@ Batu.addEventListener("click", function () {
   let Komp = Random();
   let Player = "Batuu";
   let Hasil = Game(Player, Komp);
-  FotoUser.src = "Batu2.jpg";
+  FotoUser.src = "Batu.png";
   Teks.textContent = "- - -";
   if (Hasil == "SERI") {
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "Kertas2.png";
+        FotoKomputer.src = "Kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -92,18 +92,18 @@ Batu.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Batu2.jpg";
+      FotoKomputer.src = "Batu.png";
     }, 1099);
   } else if (Hasil == "MENANG") {
     let Poin = parseInt(PoinUser.textContent);
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "kertas2.png";
+        FotoKomputer.src = "kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -117,18 +117,18 @@ Batu.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Gunting2.jpg";
+      FotoKomputer.src = "Gunting.png";
     }, 1099);
   } else if (Hasil == "KALAH") {
     let Poin = parseInt(PoinKomputer.textContent);
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "kertas2.png";
+        FotoKomputer.src = "kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -142,7 +142,7 @@ Batu.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Kertas2.png";
+      FotoKomputer.src = "Kertas.png";
     }, 1099);
   }
 });
@@ -151,17 +151,17 @@ Gunting.addEventListener("click", function () {
   let Komp = Random();
   let Player = "Guntingg";
   let Hasil = Game(Player, Komp);
-  FotoUser.src = "Gunting2.jpg";
+  FotoUser.src = "Gunting.png";
   Teks.textContent = "- - -";
   if (Hasil == "SERI") {
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "Kertas2.png";
+        FotoKomputer.src = "Kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -173,18 +173,18 @@ Gunting.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Gunting2.jpg";
+      FotoKomputer.src = "Gunting.png";
     }, 1099);
   } else if (Hasil == "MENANG") {
     let Poin = parseInt(PoinUser.textContent);
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "kertas2.png";
+        FotoKomputer.src = "kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -198,18 +198,18 @@ Gunting.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Kertas2.png";
+      FotoKomputer.src = "Kertas.png";
     }, 1099);
   } else if (Hasil == "KALAH") {
     let Poin = parseInt(PoinKomputer.textContent);
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "kertas2.png";
+        FotoKomputer.src = "kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -223,7 +223,7 @@ Gunting.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Batu2.jpg";
+      FotoKomputer.src = "Batu.png";
     }, 1099);
   }
 });
@@ -232,17 +232,17 @@ Kertas.addEventListener("click", function () {
   let Komp = Random();
   let Player = "Kertass";
   let Hasil = Game(Player, Komp);
-  FotoUser.src = "Kertas2.png";
+  FotoUser.src = "Kertas.png";
   Teks.textContent = "- - -";
   if (Hasil == "SERI") {
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "Kertas2.png";
+        FotoKomputer.src = "Kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -254,18 +254,18 @@ Kertas.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Kertas2.png";
+      FotoKomputer.src = "Kertas.png";
     }, 1099);
   } else if (Hasil == "MENANG") {
     let Poin = parseInt(PoinUser.textContent);
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "kertas2.png";
+        FotoKomputer.src = "kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -279,18 +279,18 @@ Kertas.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Batu2.jpg";
+      FotoKomputer.src = "Batu.png";
     }, 1099);
   } else if (Hasil == "KALAH") {
     let Poin = parseInt(PoinKomputer.textContent);
     let sec = 1;
     let pengulangan = setInterval(function () {
       if (sec == 1) {
-        FotoKomputer.src = "Batu2.jpg";
+        FotoKomputer.src = "Batu.png";
       } else if (sec == 2) {
-        FotoKomputer.src = "kertas2.png";
+        FotoKomputer.src = "kertas.png";
       } else if (sec == 3) {
-        FotoKomputer.src = "Gunting2.jpg";
+        FotoKomputer.src = "Gunting.png";
       }
       sec++;
       if (sec > 3) {
@@ -304,14 +304,14 @@ Kertas.addEventListener("click", function () {
       clearInterval(pengulangan);
     }, 1000);
     setTimeout(function () {
-      FotoKomputer.src = "Gunting2.jpg";
+      FotoKomputer.src = "Gunting.png";
     }, 1099);
   }
 });
 
 Reset.addEventListener('click',function(){
-  FotoKomputer.src = "komputer.jpg";
-  FotoUser.src = "user.jpg";
+  FotoKomputer.src = "Komputer.avif";
+  FotoUser.src = "User3.jpg";
   PoinUser.innerText = 0;
   PoinKomputer.innerText = 0;
   Teks.textContent = "- - -";
